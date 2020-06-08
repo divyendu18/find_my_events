@@ -14,9 +14,13 @@ class Details extends Component {
     const { event } = this.props;
     return (
       <div>
-        <Link to="/" className="">
-          Back to homepage
-        </Link>
+        <div className="row">
+          <div className="col-md-6">
+            <Link to="/" className="">
+              Back to homepage
+            </Link>
+          </div>
+        </div>
         <Card className="text-center">
           <Card.Header>{event.name}</Card.Header>
           <Card.Body>
