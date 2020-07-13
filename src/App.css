@@ -1,7 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Sriracha&display=swap");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#cool1 {
+    font-family: "Tangerine", serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#cool {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-shadow: 2px 2px 5px black;
+    font-size: medium;
+}
+
+#cool:hover {
+    cursor: pointer;
+}
+
+#lower {
+    padding-left: 4.2rem;
+    padding-top: 1.8rem;
+    color: greenyellow;
+}
+
+#head {
+    font-family: "Sriracha", cursive;
+}
+
+#head1 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-family: "Sriracha", cursive;
+}
+
+.n1 {
+    background: #84a9ac;
+    padding-bottom: 0%;
 }
 
 .events {
@@ -11,6 +54,12 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
+/* .back1:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+} */
 
 .add {
     width: 80%;
@@ -66,7 +115,7 @@
     margin: 1.2em 0;
 }
 
-@media(max-width:470px) {
+@media (max-width: 470px) {
     .add form>div input {
         width: 250px;
     }
@@ -78,7 +127,7 @@
 .header {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(wallpaper.jpg);
+    background: radial-gradient( rgba(255, 255, 255, 0.2) 10%, rgba(0, 0, 0, 0.85) 80%), url(wallpaper.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -88,49 +137,68 @@
 }
 
 .header h1 {
-    color: #ffff;
+    color: cyan;
     margin-bottom: 15px;
-    font-size: 45px;
+    font-size: 65px;
     letter-spacing: 2px;
     text-align: center;
 }
 
-.search-field {
-    height: 50px;
-    padding: 10px;
-    border: navy;
-    border-radius: 10px;
-    outline: none;
-    margin-left: 1.2rem;
+.main {
+    width: 80%;
+    margin-left: 3rem;
 }
 
-.search-btn {
-    height: 50px;
-    width: 150px;
-    background: #ffeb3b;
-    border: navy;
-    color: #000;
-    border-radius: 10px;
-    margin-left: 1.2rem;
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
     text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    border-radius: 40%;
+}
+
+.d2 {
+    background: linear-gradient(to right, #ff512f 0%, #f09819 51%, #ff512f 100%);
+}
+
+.d2:hover {
+    cursor: pointer;
+    background-position: right center;
 }
 
 .search-btn:hover {
-    background: #ffc107;
     cursor: pointer;
+    background-position: right center;
 }
 
 .form-box {
     padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    background: #191970;
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 0.5rem;
 }
 
 .margin {
-    margin-left: 2rem;
+    margin-left: 0.5rem;
     cursor: pointer;
 }
 
-@media(max-width:470px) {
+@media (max-width: 470px) {
     .form-box {
         display: flex;
         flex-direction: column;
@@ -138,10 +206,118 @@
         justify-content: center;
     }
     .form-box>input {
-        margin: 0.4em 0;
+        margin: 0em 0;
     }
     .form-box>button {
         width: 120px;
         height: 40px;
     }
+}
+
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.zoom-effect-container {
+    float: left;
+    position: relative;
+    width: 285px;
+    height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.image-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-card img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.zoom-effect-container:hover .image-card img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.detail {
+    background: url(detail.jpg);
+    width: 100%;
+}
+
+.address {
+    background: #2f4f4f;
+    color: white;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.social {
+    margin-left: 1.2rem;
+    border-radius: 10%;
+    margin-top: 0.8rem;
+}
+
+#a1 {
+    font-size: 40px;
+}
+
+#wall {
+    font-size: 80px;
+    font-weight: 1000;
+    color: black;
+    font-family: "Tangerine", "Inconsolata", "Droid Sans", serif;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+#design {
+    color: rgb(0, 255, 98);
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.d1 {
+    margin: auto;
+    background: cover;
+    width: 100%;
+}
+
+.back1 {
+    background: url(add.jpg);
+}
+
+.site-back-top-basic {
+    color: rgba(64, 64, 64, 0.6);
+}
+
+.backtop {
+    /* height: 40;
+    width: 40;
+    
+    border-radius: 4%; */
+    /* background-color: black; */
+    color: REd;
+    text-align: right;
+    font-size: 14;
+    line-height: 1px;
+    border-color: red;
+    border-radius: 4%;
+    height: 10px;
+}
+
+.backtop:hover {
+    cursor: pointer;
 }

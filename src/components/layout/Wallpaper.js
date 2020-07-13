@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { findEvent } from "../../redux/action/eventAction";
 
@@ -20,19 +19,19 @@ class Wallpaper extends Component {
     return (
       <div className="header">
         <form onSubmit={this.handleSubmit}>
-          <h1>Events in Your City...</h1>
-          <div className="form-box">
-            <input
-              type="text"
-              className="search-field"
-              placeholder="Select Your Palace...."
-              value={this.state.place}
-              name="place"
-              onChange={this.handleChange}
-            />
-            <button className="search-btn" type="submit">
-              Search
-            </button>
+          <h1 id="wall">Events in Your City...</h1>
+          <div className="main">
+            <div className="form-group has-search">
+              <span class="fa fa-search form-control-feedback"></span>
+              <input
+                type="text"
+                className="search-field form-control"
+                placeholder="Select Your Palace...."
+                value={this.state.place}
+                name="place"
+                onChange={this.handleChange}
+              />
+            </div>
           </div>
         </form>
       </div>

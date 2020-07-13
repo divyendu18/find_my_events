@@ -1,36 +1,33 @@
 {
-  "events": [
-    {
-      "id": "bbf6e402-3268-43b3-a192-13153289876a",
-      "name": "Nature Out",
-      "place": "Ranchi",
-      "date": "2020-06-15",
-      "image": "https://source.unsplash.com/1600x900/?nature,water",
-      "description": "This is an event which will take you to the different aspects of nature"
-    },
-    {
-      "id": "9a9928dc-6f35-473c-984c-1e19afebecd5",
-      "name": "Nature Out",
-      "place": "Jalandhar",
-      "date": "2020-06-23",
-      "image": "https://source.unsplash.com/1600x900/?nature,water",
-      "description": "This is an event which will take you to the different aspects of nature"
-    },
-    {
-      "id": "a6e910e1-54a6-4dec-9aba-086b8c1fa9b0",
-      "name": "Nature Out",
-      "place": "Patna",
-      "date": "2020-06-19",
-      "image": "https://source.unsplash.com/1600x900/?nature,water",
-      "description": "This is an event which will take you to the different aspects of nature"
-    },
-    {
-      "id": "740fec12-60b1-4d6e-b74a-b329573a1adf",
-      "name": "Water games",
-      "place": "Delhi",
-      "date": "2020-06-28",
-      "image": "https://source.unsplash.com/weekly?water",
-      "description": "Here, you will get a chance to enjoy different water activities..."
-    }
-  ]
+    "events": [{
+            "id": "27d83bdb-15f6-4d36-aa77-ab8b294fea05",
+            "name": "Disco Night",
+            "place": "Asansol",
+            "date": "2020-07-10",
+            "image": "https://images.unsplash.com/photo-1586968225606-8dd4d1a0110b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80",
+            "description": "Witness the glamour of the Indian Colleges"
+        },
+        {
+            "id": "27d83bdb-15f6-4d36-aa77-ab8b294fea05",
+            "name": "Disco Night",
+            "place": "Asansol",
+            "date": "2020-07-10",
+            "image": "https://images.unsplash.com/photo-1586968225606-8dd4d1a0110b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80",
+            "description": "Witness the glamour of the Indian Colleges"
+        }, {
+            "id": "27d83bdb-15f6-4d36-aa77-ab8b294fea05",
+            "name": "Disco Night",
+            "place": "Asansol",
+            "date": "2020-07-10",
+            "image": "https://images.unsplash.com/photo-1586968225606-8dd4d1a0110b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80",
+            "description": "Witness the glamour of the Indian Colleges"
+        }, {
+            "id": "27d83bdb-15f6-4d36-aa77-ab8b294fea05",
+            "name": "Disco Night",
+            "place": "Asansol",
+            "date": "2020-07-10",
+            "image": "https://images.unsplash.com/photo-1586968225606-8dd4d1a0110b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80",
+            "description": "Witness the glamour of the Indian Colleges"
+        }
+    ]
 }

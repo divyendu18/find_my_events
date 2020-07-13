@@ -21,14 +21,16 @@ class Home extends Component {
     return (
       <div>
         <Wallpaper />
-        <h1>
-          <i className="fad fa-grip-lines-vertical" />
-          UpComing Events
-        </h1>
-        <div className="events">
-          {events.map((event) => (
-            <CardEvents key={event.id} content={event} />
-          ))}
+        <div className="detail" data-aos="fade-up" data-aos-duration="2500">
+          <h1 id="lower">
+            <i className="fad fa-grip-lines-vertical" />
+            UpComing Events
+          </h1>
+          <div className="events">
+            {events.map((event) => (
+              <CardEvents key={event.id} content={event} />
+            ))}
+          </div>
         </div>
       </div>
     );

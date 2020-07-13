@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import { Card } from "react-bootstrap";
 import { connect } from "react-redux";
 import { getEvent } from "../../redux/action/eventAction";
@@ -13,15 +13,8 @@ class Details extends Component {
   render() {
     const { event } = this.props;
     return (
-      <div>
-        <div className="row">
-          <div className="col-md-6">
-            <Link to="/" className="">
-              Back to homepage
-            </Link>
-          </div>
-        </div>
-        <Card className="text-center">
+      <div className="d1">
+        <Card className="text-center" style={{ width: "18rem" }}>
           <Card.Header>{event.name}</Card.Header>
           <Card.Body>
             <Card.Img variant="top" src={event.image} />
