@@ -13,46 +13,61 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 import "./App.css";
 import Address from "./components/layout/Address";
 import { BackTop } from "antd";
-import { VerticalAlignTopOutlined } from "@ant-design/icons";
-class App extends Component {
-  state = {
-    content: "loading...",
-  };
 
-  async componentDidMount() {
-    AOS.init();
-    const url = "http://localhost:3000/events";
-    const response = await fetch(url);
-    const content = await response.json();
-    //console.dir({content});
-    this.setState({ content });
-  }
-  render() {
-    //const { content :[{id,name,place,date}] }   = this.state;
-    return (
-      <Provider store={store}>
-        <Router>
-          <div className="App">
-            <AppNavbar />
-            <Route exact path="/" component={Home} />
-            <Route exact path="/events/:id" component={Details} />
-            <Route exact path="/place" component={FindPlace} />
-            <Route exact path="/add" component={AddEvents} />
-          </div>
-          <Address />
-          <div className="footer">
-            CopyRight &copy; Dj {new Date().getFullYear()}
-            <BackTop className="backtop">
-              <i className="fas fa-arrow-up" />
-              Scroll TO UP
-            </BackTop>
-            {/* <BackTop className="backtop">
-              <VerticalAlignTopOutlined />
-            </BackTop> */}
-          </div>
-        </Router>
-      </Provider>
-    );
-  }
+class App extends Component {
+    state = {
+        content: "loading...",
+    };
+
+    async componentDidMount() {
+        AOS.init();
+        const url = "http://localhost:3000/events";
+        const response = await fetch(url);
+        const content = await response.json();
+        //console.dir({content});
+        this.setState({ content });
+    }
+    render() {
+        //const { content :[{id,name,place,date}] }   = this.state;
+        return ( <
+            Provider store = { store } >
+            <
+            Router >
+            <
+            div className = "App" >
+            <
+            AppNavbar / >
+            <
+            Route exact path = "/"
+            component = { Home }
+            /> <
+            Route exact path = "/events/:id"
+            component = { Details }
+            /> <
+            Route exact path = "/place"
+            component = { FindPlace }
+            /> <
+            Route exact path = "/add"
+            component = { AddEvents }
+            /> <
+            /div> <
+            Address / >
+            <
+            div className = "footer" >
+            CopyRight & copy; Dj { new Date().getFullYear() } <
+            BackTop className = "backtop" >
+            <
+            i className = "fas fa-arrow-up" / >
+            Scroll TO UP <
+            /BackTop> {
+                /* <BackTop className="backtop">
+                              <VerticalAlignTopOutlined />
+                            </BackTop> */
+            } <
+            /div> <
+            /Router> <
+            /Provider>
+        );
+    }
 }
 export default App;

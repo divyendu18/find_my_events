@@ -1,5 +1,4 @@
 import React from "react";
-//import { confirmAlert } from "react-confirm-alert";
 import "./Card.css";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
