@@ -1,33 +1,28 @@
 {
-    "events": [{
-            "id": "27d83bdb-15f6-4d36-aa77-ab8b294fea05",
-            "name": "Disco Night",
-            "place": "Asansol",
-            "date": "2020-07-10",
-            "image": "https://images.unsplash.com/photo-1586968225606-8dd4d1a0110b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80",
-            "description": "Witness the glamour of the Indian Colleges"
-        },
-        {
-            "id": "27d83bdb-15f6-4d36-aa77-ab8b294fea05",
-            "name": "Disco Night",
-            "place": "Asansol",
-            "date": "2020-07-10",
-            "image": "https://images.unsplash.com/photo-1586968225606-8dd4d1a0110b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80",
-            "description": "Witness the glamour of the Indian Colleges"
-        }, {
-            "id": "27d83bdb-15f6-4d36-aa77-ab8b294fea05",
-            "name": "Disco Night",
-            "place": "Asansol",
-            "date": "2020-07-10",
-            "image": "https://images.unsplash.com/photo-1586968225606-8dd4d1a0110b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80",
-            "description": "Witness the glamour of the Indian Colleges"
-        }, {
-            "id": "27d83bdb-15f6-4d36-aa77-ab8b294fea05",
-            "name": "Disco Night",
-            "place": "Asansol",
-            "date": "2020-07-10",
-            "image": "https://images.unsplash.com/photo-1586968225606-8dd4d1a0110b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80",
-            "description": "Witness the glamour of the Indian Colleges"
-        }
-    ]
+  "events": [
+    {
+      "id": "27d83bdb-15f6-4d36-aa77-ab8b294fea05",
+      "name": "Disco Night",
+      "place": "Asansol",
+      "date": "2020-07-10",
+      "image": "https://images.unsplash.com/photo-1586968225606-8dd4d1a0110b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80",
+      "description": "Witness the glamour of the Indian Colleges"
+    },
+    {
+      "id": "27d83bdb-15f6-4d36-aa77-ab8b294fea05",
+      "name": "Disco Night",
+      "place": "Asansol",
+      "date": "2020-07-10",
+      "image": "https://images.unsplash.com/photo-1586968225606-8dd4d1a0110b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80",
+      "description": "Witness the glamour of the Indian Colleges"
+    },
+    {
+      "id": "27d83bdb-15f6-4d36-aa77-ab8b294fea05",
+      "name": "Disco Night",
+      "place": "Asansol",
+      "date": "2020-07-10",
+      "image": "https://images.unsplash.com/photo-1586968225606-8dd4d1a0110b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80",
+      "description": "Witness the glamour of the Indian Colleges"
+    }
+  ]
 }

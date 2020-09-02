@@ -7,7 +7,7 @@ function Address() {
         <div className="row">
           <div className="col-md-4">
             <h1>LOCATION</h1>
-            <p>Powder Gali,Goregaon,Mumbai</p>
+            <p>Lovely Professional University, Phagwara</p>
           </div>
           <div className="col-md-4">
             <h1 id="a1">AROUND THE WEB</h1>

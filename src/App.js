@@ -53,8 +53,8 @@ class App extends Component {
             /div> <
             Address / >
             <
-            div className = "footer" >
-            CopyRight & copy; Dj { new Date().getFullYear() } <
+            div className = "footer" ><i class="fa fa-copyright" aria-hidden="true"/>
+            All rights reserved DJ { new Date().getFullYear() } <
             BackTop className = "backtop" >
             <
             i className = "fas fa-arrow-up" / >

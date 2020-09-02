@@ -8,6 +8,7 @@ import { deleteEvent } from "../../redux/action/eventAction";
 class CardEvents extends React.Component {
   onDeleteClick = (id) => {
     this.props.deleteEvent(id);
+    window.alert('You have deleted that event');
   };
   render() {
     const { content } = this.props;
