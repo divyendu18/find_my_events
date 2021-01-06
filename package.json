@@ -9,7 +9,7 @@
         "@testing-library/user-event": "^11.3.1",
         "antd": "^4.3.4",
         "aos": "^3.0.0-beta.6",
-        "axios": "^0.19.2",
+        "axios": "^0.21.1",
         "bootstrap": "^4.5.0",
         "concurrently": "^5.2.0",
         "mdbreact": "^4.27.0",
